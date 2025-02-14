@@ -1,0 +1,28 @@
+#techstack {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80dvh;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    align-items: center;
+}
+
+.techStackTitle {
+    justify-self: center;
+    font-size: 5rem;
+    transform: rotate(-2deg);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1300px) {
+    #techstack {
+        grid-template-columns: 1fr;
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    }
+
+    .techStackTitle {
+        transform: rotate(0deg);
+        text-align: center;
+    }
+}

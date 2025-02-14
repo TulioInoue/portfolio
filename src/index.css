@@ -1,0 +1,30 @@
+:root {
+  --background-color: #E6E6E6;
+  --background-card-color: #F0F0F0;
+  --primary-color: #A73F3F;
+  --primary-light-color: #C74C4C;
+  --primary-hover-color: #da6d6d;
+  --secondary-color: #6CA73F;
+  --text-icon-color: #414141;
+}
+
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+
+.text-green {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.text-red {
+  color: var(--primary-color);
+  font-weight: bold;
+}

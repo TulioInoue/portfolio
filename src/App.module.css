@@ -1,0 +1,18 @@
+#App {
+    background-color: var(--background-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#main {
+    position: relative;
+    padding-top: 90px;
+}
+
+@media screen and (max-width: 500px) {
+    #main {
+        padding-top: 250px;
+    }
+}

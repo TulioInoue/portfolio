@@ -1,0 +1,10 @@
+#works {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.work {
+    font-size: 4rem;
+    padding: 10px 30px;
+}

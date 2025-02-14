@@ -1,0 +1,36 @@
+#aboutme {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.image img {
+    width: 30rem;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.info h1 {
+    font-size: 5rem;
+}
+
+.info h2 {
+    font-size: 3rem;
+}
+
+.info p {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+    #aboutme {
+        flex-direction: column;
+    }
+}

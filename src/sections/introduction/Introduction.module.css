@@ -1,0 +1,37 @@
+#introduction {
+    width: 100%;
+}
+
+#aboutme {
+    padding: 10rem 30rem;
+    animation: fade_in .5s ease-in-out;
+}
+
+#journey {
+    animation: fade_in_down .5s ease-in-out;
+}
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes fade_in_down {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #aboutme {
+        padding: 10rem;
+    }
+}

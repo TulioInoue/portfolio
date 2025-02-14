@@ -1,0 +1,14 @@
+#journey {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0rem 20rem;
+    gap: 10rem;
+}
+
+@media screen and (max-width: 1300px) {
+    #journey {
+        padding: 0rem 10rem;
+    }
+}
+
